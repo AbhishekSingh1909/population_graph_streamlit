@@ -7,7 +7,7 @@ import pandas as pd
 st.title('Population Plot')
 
 # Read the CSV file
-df = pd.read_csv("population.csv")
+df = pd.read_csv("./population.csv")
 
 # Drop unnecessary columns if any (e.g., 'Unnamed: 0')
 if 'Unnamed: 0' in df.columns:
