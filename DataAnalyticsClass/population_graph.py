@@ -7,7 +7,7 @@ import pandas as pd
 st.title('Population Plot')
 
 # Read the CSV file
-url = "https://github.com/AbhishekSingh1909/population_graph_streamlit/blob/main/DataAnalyticsClass/population.csv"
+url = "https://raw.githubusercontent.com/AbhishekSingh1909/population_graph_streamlit/refs/heads/main/DataAnalyticsClass/population.csv"
 df = pd.read_csv(url)
 
 # Drop unnecessary columns if any (e.g., 'Unnamed: 0')
